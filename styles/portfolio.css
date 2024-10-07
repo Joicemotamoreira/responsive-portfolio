@@ -1,0 +1,27 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playfair-display-primary-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
