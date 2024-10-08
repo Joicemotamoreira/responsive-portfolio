@@ -125,6 +125,13 @@ p {
 .logo {
   max-height: 35px;
 }
+
+.work-projects img {
+  transition: all 150ms ease-in-out;
+}
+.work-projects img:hover {
+  transform: scale(1.1);
+}
 nav {
   padding: 20px 0;
 }
