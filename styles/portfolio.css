@@ -16,17 +16,10 @@
   font-weight: 700;
   font-style: normal;
 }
-.spinnaker-regular {
-  font-family: "Spinnaker", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 :root {
-  --branding-color: #980000;
-  --highlight-color: #415765;
-  --secondary-color: #dadfe5;
-  --neutral-color: #ebecee;
+  --branding-color: #f9f7fe;
+  --secondary-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -60,7 +53,7 @@ p {
 }
 
 .hero {
-  background-color: var(--secondary-color);
+  background-color: var(--branding-color);
   text-align: center;
   padding: 80px 20px;
 }
@@ -107,30 +100,30 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  border: 1px solid var(--branding-color) !important;
+  border: 1px solid var(--secondary-color) !important;
 }
 .btn-branding:hover {
-  color: var(--branding-color);
-  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
 }
 .btn-branding-outline {
-  background: var(--secondary-color);
-  border: 1px solid var(--branding-color);
+  background: var(--branding-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 4px;
-  color: var(--branding-color);
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 .project-description a:hover {
   color: white;
-  background-color: var(--branding-color);
+  background-color: var(--secondary-color);
 }
 
 .project-description {
@@ -170,7 +163,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 footer {
@@ -178,7 +171,7 @@ footer {
 }
 
 footer .contact-box {
-  background-color: var(--secondary-color);
+  background-color: var(--branding-color);
   padding: 30px 60px;
   border-radius: 10px;
 }
@@ -194,12 +187,12 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 footer .social-links a {
   margin: 0 20px;
-  background-color: var(--secondary-color);
+  background-color: var(--branding-color);
   padding: 15px;
   border-radius: 50%;
 }
